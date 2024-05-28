@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixed Flexbox Example</title>
+    <style>
+      .container {
+        display: flex;
+        background-color: lightblue;
+        width: 100%;
+        justify-content: space-between; /* This distributes children evenly with space between them */
+        position: fixed;
+        top: 0;
+      }
+
+      .item {
+        padding: 10px;
+        background-color: coral;
+      }
+
+      body {
+        margin: 0;
+        padding-top: 50px; /* Ensure content starts below the fixed element */
+        height: 1000vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+    <div class="content">
+      <p>Your main content here...</p>
+    </div>
+  </body>
+</html>
