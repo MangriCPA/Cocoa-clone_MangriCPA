@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/0. style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -25,7 +25,7 @@
     </div>
 
     <header class="screen__header">
-      <h1 class="screen__header__title">Friends</h1>
+      <h1 class="screen__header__title">Chats</h1>
       <div class="screen__header__icons">
         <span><i class="fa-solid fa-magnifying-glass"></i></span>
         <span><i class="fa-solid fa-music"></i></span>
@@ -33,35 +33,19 @@
       </div>
     </header>
 
-    <a id="friends__display__link">
-      <i class="fa-solid fa-circle-info"></i>Friends' Names Display
-      <i class="fa-solid fa-chevron-right"></i>
-    </a>
-
-    <main class="friends-screen">
-      <div clsss="user-component">
-        <div class="master-user-component__column">
-          <img src="img/Myeong-su_Kim.jpg" class="user-component__avatar--xl" />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Myeong-su Kim</h4>
-            <!--<h6 class="user-component__subtitle">123123</h6>-->
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span><i class="fa-solid fa-chevron-up fa-xs"></i>
-        </div>
-      </div>
+    <main class="main-screen">
       <div clsss="user-component">
         <div class="user-component__column">
-          <img src="img/Channel.jpg" class="user-component__avatar--sm" />
-          <div class="user-component__text_channel">
-            <h4 class="user-component__title user-component__title--not-bold">
-              Channel
-            </h4>
-            <span>2<i class="fa-solid fa-chevron-right fa-xs"></i></span>
+          <img src="img/Myeong-su_Kim.jpg" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Myeong-su Kim</h4>
+            <h6 class="user-component__subtitle">
+              Please check my Kokoa Account info
+            </h6>
+          </div>
+          <div class="user-component__column-notice">
+            <span>21:22</span>
+            <div class="badge">1</div>
           </div>
         </div>
       </div>
@@ -71,13 +55,13 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="2. friends.html">
-            <i class="fa-solid fa-user fa-2x"></i>
+            <i class="fa-regular fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="3. chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fa-regular fa-message fa-2x"></i>
+            <i class="fa-solid fa-message fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
